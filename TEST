@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+	<title>Leading Infrastructure As A Service in Dubai | IaaS Buzinessware</title>   
+	<link rel="stylesheet" href="css/jquery.mobile-1.0a1.min.css" />
+	<link rel="stylesheet" href="css/mobile.css" />
+	<link rel="stylesheet" href="css/style.css">
+	
+	<script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+	<script type="text/javascript" src="js/jquery.mobile-1.0a1.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	
+	<!-- menus script -->
+	<script src="js/menu.js"></script>
+	
+
+	
+</head>
+<body>
+<div data-role="page" data-theme="b" style="border: 1px solid #ccc">
+	<div data-role="header" data-theme="b">
+		<a href="/"><img src="img/brand.png" alt="buzzinessware" /></a>
+		<h1>Experience Secure, Scaleable & Client focuced Hosting Services from Dubai Data Center</h1>
+	</div>
+	
+	<div data-role="content" class="clearfix">
+		<div class="search"><input type="text" name="text-basic" id="text-basic" value="" placeholder="SEARCH FOR YOUR DOMAIN" onfocus="this.placeholder = ''" onblur="this.placeholder = 'SEARCH FOR YOUR DOMAIN'"></div>
+		<div class="search-btn"><button class="ui-shadow ui-btn ui-corner-all">Search</button></div>
+		<div class="on-sale"><img src="img/on-sale.png" alt="On Sale" /> .ae  Domain AED 135 Now</div>
+	</div>
+	
+	<div data-role="content" class="clearfix">
+		<a href="#hosting" rel="external" data-transition="slide">
+			<div class="prod">
+				<img src="img/mobile/hosting.png"  alt="" class="img-responsive"/>
+				<p>Web Hosting</p>
+			</div>
+		</a>
+		<a href="#">
+			<div class="prod">
+				<img src="img/mobile/ssl.png" alt="" class="img-responsive"/>	
+				<p>SSL Certificate</p>
+			</div>
+		</a>
+		<a href="#">
+			<div class="prod">
+				<img src="img/mobile/seal.png" alt="" class="img-responsive"/>
+				<p>Online Seals</p>
+			</div>
+		</a>
+	</div>
+	<div id="cloud" data-role="content" class="clearfix">
+		<a href="id=slidedown" data-transition="slidedown">
+			<div class="prod">
+				<img src="img/mobile/p-cloud.png" alt="" class="img-responsive"/>
+				<p>Cloud Servers</p>
+			</div>
+		</a>
+		<a href="#">
+			<div class="prod">
+				<img src="img/mobile/storage.png" alt="" class="img-responsive"/>
+				<p>Cloud Storage</p>
+			</div>
+		</a>
+		<a href="#">
+			<div class="prod">
+				<img src="img/mobile/backup.png" alt="" class="img-responsive"/>
+				<p>Cloud Backup</p>
+			</div>
+		</a>
+		<a href="#">
+			<div class="prod">
+				<img src="img/mobile/email.png" alt="" class="img-responsive"/>
+				<p>Business Emails</p>
+			</div>
+		</a>
+		<a href="#">
+			<div class="prod">
+				<img src="img/mobile/office.png" alt="" class="img-responsive"/>
+				<p>Office 365</p>
+			</div>
+		</a>
+		<a href="#">
+			<div class="prod">
+				<img src="img/mobile/exchange.png" alt="" class="img-responsive"/>
+				<p>Hosted Exchange</p>
+			</div>
+		</a>
+		<a href="#">
+			<div class="prod">
+				<img src="img/mobile/hybrid.png" alt="" class="img-responsive"/>
+				<p>Hybrid Email Solution</p>
+			</div>
+		</a>
+		<a href="#">
+			<div class="prod">
+				<img src="img/mobile/e-server.png" alt="" class="img-responsive"/>
+				<p>Email Server</p>
+			</div>
+		</a>
+		<a href="#">
+			<div class="prod">
+				<img src="img/mobile/file-server.png" alt="" class="img-responsive"/>
+				<p>Cloud File Server</p>
+			</div>
+		</a>
+	</div>
+	
+	<div id="dedicated" data-role="content" class="clearfix">
+		<a href="#">
+			<div class="prod">
+				<img src="img/mobile/dedicated.png" alt="" class="img-responsive"/>
+				<p>Dedicated Servers</p>
+			</div>
+		</a>
+		<a href="#">
+			<div class="prod">
+				<img src="img/mobile/colocation.png" alt="" class="img-responsive"/>
+				<p>Colocations</p>
+			</div>
+		</a>
+		<a href="#">
+			<div class="prod">
+				<img src="img/mobile/support.png" alt="" class="img-responsive" style="width: 50%;"/>
+			</div>
+		</a>
+	</div>
+
+	<div data-role="footer" data-position="fixed">
+		<div class="getin">
+			<div>Get in Touch 24*7  +971 4 320 6100</div>
+		</div>
+		<div class="chat-area">
+			<div>
+				<a href="" onclick="LC_API.open_chat_window();return false;"><i class="fa fa-comment"></i> LIVE CHAT</a>
+			</div>
+		</div>
+	</div>
+
+</div>
+
+<div id="o-wrapper" class="o-wrapper">
+<div data-role="page" data-theme="b" id="hosting" class="product-details">
+	<div data-role="header" data-theme="b">
+		<a href=""><img src="img/brand.png" alt="buzzinessware" /></a>
+		
+			<div class="c-buttons">
+			  <button id="c-button--push-right" class="c-button"><img src="img/mobile/toggle.png" alt="Toggle Menu"/></button>
+			</div>
+			<div id="github-icons"></div>
+	</div>
+	
+	<div class="page-title">
+		Web Hosting
+	</div>
+	  
+	<div data-role="content">
+		<div class="plans clearfix">
+			<div class="left">
+				<h2>Economy</h2>
+				<p>USE FOR 1 DOMAIN</p>
+				<p>3 GB Disk Space, 10 Emails, 1 MySQL database</p>
+			</div>
+			<div class="right">
+				<p>USD 8.25/MO </p>
+				<form action="http://dev.hostware.ae:81/cart.php" method="get" class="check_domain">
+				  <input type="hidden" name="billingcycle" value="annually">
+				  <input type="hidden" name="a" value="add">
+				  <input type="hidden" name="pid" id="pid" value="1">
+				  <input name="" type="submit" value="Buy Now" >
+				 </form>
+			</div>
+		</div>
+		<div class="plans clearfix">
+			<div class="left">
+				<h2>Economy</h2>
+				<p>USE FOR 1 DOMAIN</p>
+				<p>3 GB Disk Space, 10 Emails, 1 MySQL database</p>
+			</div>
+			<div class="right">
+				<p>USD 8.25/MO </p>
+				<form action="http://dev.hostware.ae:81/cart.php" method="get" class="check_domain">
+				  <input type="hidden" name="billingcycle" value="annually">
+				  <input type="hidden" name="a" value="add">
+				  <input type="hidden" name="pid" id="pid" value="1">
+				  <input name="" type="submit" value="Buy Now" >
+				 </form>
+			</div>
+		</div>
+		<div class="plans clearfix">
+			<div class="left">
+				<h2>Economy</h2>
+				<p>USE FOR 1 DOMAIN</p>
+				<p>3 GB Disk Space, 10 Emails, 1 MySQL database</p>
+			</div>
+			<div class="right">
+				<p>USD 8.25/MO </p>
+				<form action="http://dev.hostware.ae:81/cart.php" method="get" class="check_domain">
+				  <input type="hidden" name="billingcycle" value="annually">
+				  <input type="hidden" name="a" value="add">
+				  <input type="hidden" name="pid" id="pid" value="1">
+				  <input name="" type="submit" value="Buy Now" >
+				 </form>
+			</div>
+		</div>
+	</div>
+	
+	<div class="suggestions">
+		<div class="page-title b-0">
+			Suggestions
+		</div>
+		<a href="#hosting" rel="external" data-transition="slide">
+			<div class="box">
+				<img src="img/mobile/suggestions/ae.png" ></br>
+				<a class="link clearfix">Search domain</a>
+			</div>
+		</a>
+		<div class="box">
+			<img src="img/mobile/suggestions/ssl.png" >
+			<a class="link clearfix">Buy now</a>
+		</div>
+	</div>
+	
+	<div data-role="footer" data-position="fixed">
+		<div class="getin">
+			<div>Get in Touch 24*7  +971 4 320 6100</div>
+		</div>
+		<div class="chat-area">
+			<div>
+				<a href="" onclick="LC_API.open_chat_window();return false;"><i class="fa fa-comment"></i> LIVE CHAT</a>
+			</div>
+		</div>
+	</div>
+
+</div>
+</div><!-- /o-wrapper -->
+<nav id="c-menu--push-right" class="c-menu c-menu--push-right">
+  <ul class="c-menu__items">
+	<li class="c-menu__parent"><span>Website Services</span> <span><button class="c-menu__close"><img src="img/mobile/close.jpg" alt="close"/></button></span></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Domain Registration</a></li>
+	<li class="c-menu__item"><a href="#" class="c-menu__link">Linux/Windows Hosting</a></li>
+	<li class="c-menu__item"><a href="#" class="c-menu__link">SSL Certificates</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Online Seals</a></li>
+	
+	<li class="c-menu__parent">Cloud Solutions</li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Cloud Servers</a></li>
+	<li class="c-menu__item"><a href="#" class="c-menu__link">Cloud Storage</a></li>
+	<li class="c-menu__item"><a href="#" class="c-menu__link">Cloud Backup</a></li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Business Emails</a></li>
+	<li class="c-menu__item"><a href="#" class="c-menu__link">Office 365</a></li>
+	<li class="c-menu__item"><a href="#" class="c-menu__link">Hosted Exchange</a></li>
+	<li class="c-menu__item"><a href="#" class="c-menu__link">Hybrid Email Solution</a></li>
+	<li class="c-menu__item"><a href="#" class="c-menu__link">Email Server</a></li>
+	<li class="c-menu__item"><a href="#" class="c-menu__link">Cloud File Server</a></li>
+	
+	<li class="c-menu__parent">Dedicated Infrastructure</li>
+    <li class="c-menu__item"><a href="#" class="c-menu__link">Cloud Servers</a></li>
+	<li class="c-menu__item"><a href="#" class="c-menu__link">Cloud Storage</a></li>
+	
+	<div class="support" style="    background: #e1242a;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    margin-top: 20px;">
+		24*7 uae based Support</br>
+		<a href="">Visit Support Center</a>
+	</div>
+  </ul>
+</nav><!-- /c-menu push-right -->
+
+<div id="c-mask" class="c-mask"></div><!-- /c-mask -->
+
+<script>
+	  /**
+	   * Push right instantiation and action.
+	   */
+	  var pushRight = new Menu({
+		wrapper: '#o-wrapper',
+		type: 'push-right',
+		menuOpenerClass: '.c-button',
+		maskId: '#c-mask'
+	  });
+	
+	  var pushRightBtn = document.querySelector('#c-button--push-right');
+	  
+	  pushRightBtn.addEventListener('click', function(e) {
+		e.preventDefault;
+		pushRight.open();
+	  });
+	</script>
+</body>
+</html>
+
